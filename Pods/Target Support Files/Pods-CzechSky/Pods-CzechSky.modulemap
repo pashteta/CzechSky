@@ -1,0 +1,6 @@
+framework module Pods_CzechSky {
+  umbrella header "Pods-CzechSky-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33920B152807FBD40099FDBF /* Combine+Extensions .swift in Sources */ = {isa = PBXBuildFile; fileRef = 33920B142807FBD40099FDBF /* Combine+Extensions .swift */; };
+		33920B1928080E070099FDBF /* PlanePositionsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33920B1828080E070099FDBF /* PlanePositionsModel.swift */; };
+		33920B1D280858390099FDBF /* MKCoordinateRegion+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33920B1C280858390099FDBF /* MKCoordinateRegion+Extensions.swift */; };
+		33920B25280C6D420099FDBF /* PlaneOnMapComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33920B24280C6D420099FDBF /* PlaneOnMapComponent.swift */; };
+		33920B27280CA5E10099FDBF /* RootComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33920B26280CA5E10099FDBF /* RootComponent.swift */; };
+		33920B29280CA6180099FDBF /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33920B28280CA6180099FDBF /* RootView.swift */; };
+		33A93B8A280DA19D009841AC /* NeedleGenerated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A93B89280DA19D009841AC /* NeedleGenerated.swift */; };
+		33A93B8D280E20E0009841AC /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A93B8C280E20E0009841AC /* View+Extensions.swift */; };
+		33A93B90280E2152009841AC /* PlanesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A93B8F280E2152009841AC /* PlanesListView.swift */; };
+		57857F7C2804B8C900E1BF31 /* Czech_SkyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57857F7B2804B8C900E1BF31 /* Czech_SkyApp.swift */; };
+		57857F802804B8D100E1BF31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57857F7F2804B8D100E1BF31 /* Assets.xcassets */; };
+		57857F832804B8D100E1BF31 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57857F822804B8D100E1BF31 /* Preview Assets.xcassets */; };
+		57857F902804B96500E1BF31 /* PlaneOnMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57857F8F2804B96500E1BF31 /* PlaneOnMapView.swift */; };
+		57857F922804BE0900E1BF31 /* PlaneOnMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57857F912804BE0900E1BF31 /* PlaneOnMapViewModel.swift */; };
+		57857F942804BFC900E1BF31 /* PlaneDomainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57857F932804BFC900E1BF31 /* PlaneDomainModel.swift */; };
+		57857F962804C17000E1BF31 /* PlaneRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57857F952804C17000E1BF31 /* PlaneRepository.swift */; };
+		57857F9A2804CB0700E1BF31 /* RequestProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57857F992804CB0700E1BF31 /* RequestProvider.swift */; };
+		57857FA02804CB8A00E1BF31 /* PlanePositionRequestProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57857F9F2804CB8A00E1BF31 /* PlanePositionRequestProvider.swift */; };
+		57857FA32804D77B00E1BF31 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57857FA22804D77B00E1BF31 /* NetworkError.swift */; };
+		57857FA52804D78700E1BF31 /* BackendError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57857FA42804D78700E1BF31 /* BackendError.swift */; };
+		DECF1C668EABF91980214EC6 /* Pods_CzechSky.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B8CCE98F8AB2A9EBEC4B628 /* Pods_CzechSky.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1CFA6522D205A5BF66AFCAC9 /* Pods-CzechSky.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CzechSky.debug.xcconfig"; path = "Target Support Files/Pods-CzechSky/Pods-CzechSky.debug.xcconfig"; sourceTree = "<group>"; };
+		33920B142807FBD40099FDBF /* Combine+Extensions .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Combine+Extensions .swift"; sourceTree = "<group>"; };
+		33920B1828080E070099FDBF /* PlanePositionsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanePositionsModel.swift; sourceTree = "<group>"; };
+		33920B1C280858390099FDBF /* MKCoordinateRegion+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKCoordinateRegion+Extensions.swift"; sourceTree = "<group>"; };
+		33920B24280C6D420099FDBF /* PlaneOnMapComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaneOnMapComponent.swift; sourceTree = "<group>"; };
+		33920B26280CA5E10099FDBF /* RootComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootComponent.swift; sourceTree = "<group>"; };
+		33920B28280CA6180099FDBF /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		33A93B89280DA19D009841AC /* NeedleGenerated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NeedleGenerated.swift; path = CzechSky/NeedleGenerated.swift; sourceTree = SOURCE_ROOT; };
+		33A93B8C280E20E0009841AC /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		33A93B8F280E2152009841AC /* PlanesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanesListView.swift; sourceTree = "<group>"; };
+		47CA5E089C2831860AC506B5 /* Pods-Czech Sky.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Czech Sky.debug.xcconfig"; path = "Target Support Files/Pods-Czech Sky/Pods-Czech Sky.debug.xcconfig"; sourceTree = "<group>"; };
+		57857F782804B8C900E1BF31 /* CzechSky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CzechSky.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57857F7B2804B8C900E1BF31 /* Czech_SkyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Czech_SkyApp.swift; sourceTree = "<group>"; };
+		57857F7F2804B8D100E1BF31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57857F822804B8D100E1BF31 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		57857F8F2804B96500E1BF31 /* PlaneOnMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaneOnMapView.swift; sourceTree = "<group>"; };
+		57857F912804BE0900E1BF31 /* PlaneOnMapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaneOnMapViewModel.swift; sourceTree = "<group>"; };
+		57857F932804BFC900E1BF31 /* PlaneDomainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaneDomainModel.swift; sourceTree = "<group>"; };
+		57857F952804C17000E1BF31 /* PlaneRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaneRepository.swift; sourceTree = "<group>"; };
+		57857F992804CB0700E1BF31 /* RequestProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestProvider.swift; sourceTree = "<group>"; };
+		57857F9F2804CB8A00E1BF31 /* PlanePositionRequestProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanePositionRequestProvider.swift; sourceTree = "<group>"; };
+		57857FA22804D77B00E1BF31 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		57857FA42804D78700E1BF31 /* BackendError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackendError.swift; sourceTree = "<group>"; };
+		5B8CCE98F8AB2A9EBEC4B628 /* Pods_CzechSky.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CzechSky.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC68C942F0916C7FB2B14D47 /* Pods-CzechSky.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CzechSky.release.xcconfig"; path = "Target Support Files/Pods-CzechSky/Pods-CzechSky.release.xcconfig"; sourceTree = "<group>"; };
+		BCCC13B9093A1DFC370E6B41 /* Pods-Czech Sky.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Czech Sky.release.xcconfig"; path = "Target Support Files/Pods-Czech Sky/Pods-Czech Sky.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57857F752804B8C900E1BF31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DECF1C668EABF91980214EC6 /* Pods_CzechSky.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33920B132807FBCA0099FDBF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				33920B142807FBD40099FDBF /* Combine+Extensions .swift */,
+				33920B1C280858390099FDBF /* MKCoordinateRegion+Extensions.swift */,
+				33A93B8C280E20E0009841AC /* View+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		33920B1628080DE90099FDBF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				33920B1828080E070099FDBF /* PlanePositionsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		33920B1728080DED0099FDBF /* Airplane */ = {
+			isa = PBXGroup;
+			children = (
+				33920B24280C6D420099FDBF /* PlaneOnMapComponent.swift */,
+				57857F8F2804B96500E1BF31 /* PlaneOnMapView.swift */,
+				57857F912804BE0900E1BF31 /* PlaneOnMapViewModel.swift */,
+				57857F932804BFC900E1BF31 /* PlaneDomainModel.swift */,
+				57857F952804C17000E1BF31 /* PlaneRepository.swift */,
+				33920B1628080DE90099FDBF /* Model */,
+			);
+			path = Airplane;
+			sourceTree = "<group>";
+		};
+		33920B1A280853140099FDBF /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				57857FA22804D77B00E1BF31 /* NetworkError.swift */,
+				57857FA42804D78700E1BF31 /* BackendError.swift */,
+			);
+			path = Errors;
+			sourceTree = "<group>";
+		};
+		33A93B8B280DA377009841AC /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				33920B26280CA5E10099FDBF /* RootComponent.swift */,
+				33920B28280CA6180099FDBF /* RootView.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		33A93B8E280E2148009841AC /* PlanesList */ = {
+			isa = PBXGroup;
+			children = (
+				33A93B8F280E2152009841AC /* PlanesListView.swift */,
+			);
+			path = PlanesList;
+			sourceTree = "<group>";
+		};
+		57857F6F2804B8C900E1BF31 = {
+			isa = PBXGroup;
+			children = (
+				57857F7A2804B8C900E1BF31 /* CzechSky */,
+				57857F792804B8C900E1BF31 /* Products */,
+				D0E06495CFCB03AC7B40C4F2 /* Pods */,
+				AD2B49CB7EDA76B67115932A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		57857F792804B8C900E1BF31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57857F782804B8C900E1BF31 /* CzechSky.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57857F7A2804B8C900E1BF31 /* CzechSky */ = {
+			isa = PBXGroup;
+			children = (
+				33920B132807FBCA0099FDBF /* Extensions */,
+				57857F8D2804B90D00E1BF31 /* Helpers */,
+				57857F8C2804B90700E1BF31 /* Resources */,
+				57857F8B2804B90300E1BF31 /* Flows */,
+				57857F892804B8DE00E1BF31 /* Network */,
+				57857F7B2804B8C900E1BF31 /* Czech_SkyApp.swift */,
+				57857F7F2804B8D100E1BF31 /* Assets.xcassets */,
+				57857F812804B8D100E1BF31 /* Preview Content */,
+			);
+			path = CzechSky;
+			sourceTree = "<group>";
+		};
+		57857F812804B8D100E1BF31 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				57857F822804B8D100E1BF31 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		57857F892804B8DE00E1BF31 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				57857F992804CB0700E1BF31 /* RequestProvider.swift */,
+				57857FA12804D77400E1BF31 /* Helpers */,
+				57857F9B2804CB1A00E1BF31 /* AirplaneSky */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		57857F8B2804B90300E1BF31 /* Flows */ = {
+			isa = PBXGroup;
+			children = (
+				57857F8E2804B93600E1BF31 /* Main */,
+				33A93B8E280E2148009841AC /* PlanesList */,
+				33A93B8B280DA377009841AC /* Root */,
+			);
+			path = Flows;
+			sourceTree = "<group>";
+		};
+		57857F8C2804B90700E1BF31 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		57857F8D2804B90D00E1BF31 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				33A93B89280DA19D009841AC /* NeedleGenerated.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		57857F8E2804B93600E1BF31 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				33920B1728080DED0099FDBF /* Airplane */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		57857F9B2804CB1A00E1BF31 /* AirplaneSky */ = {
+			isa = PBXGroup;
+			children = (
+				57857F9F2804CB8A00E1BF31 /* PlanePositionRequestProvider.swift */,
+			);
+			path = AirplaneSky;
+			sourceTree = "<group>";
+		};
+		57857FA12804D77400E1BF31 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				33920B1A280853140099FDBF /* Errors */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		AD2B49CB7EDA76B67115932A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B8CCE98F8AB2A9EBEC4B628 /* Pods_CzechSky.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0E06495CFCB03AC7B40C4F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				47CA5E089C2831860AC506B5 /* Pods-Czech Sky.debug.xcconfig */,
+				BCCC13B9093A1DFC370E6B41 /* Pods-Czech Sky.release.xcconfig */,
+				1CFA6522D205A5BF66AFCAC9 /* Pods-CzechSky.debug.xcconfig */,
+				AC68C942F0916C7FB2B14D47 /* Pods-CzechSky.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57857F772804B8C900E1BF31 /* CzechSky */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57857F862804B8D100E1BF31 /* Build configuration list for PBXNativeTarget "CzechSky" */;
+			buildPhases = (
+				04E272B506AA5581477417E2 /* [CP] Check Pods Manifest.lock */,
+				57857F742804B8C900E1BF31 /* Sources */,
+				57857F752804B8C900E1BF31 /* Frameworks */,
+				57857F762804B8C900E1BF31 /* Resources */,
+				4AF007B107C0AD3E23492782 /* [CP] Embed Pods Frameworks */,
+				33920B32280D66550099FDBF /* Needle */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CzechSky;
+			productName = "Czech Sky";
+			productReference = 57857F782804B8C900E1BF31 /* CzechSky.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57857F702804B8C900E1BF31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					57857F772804B8C900E1BF31 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 57857F732804B8C900E1BF31 /* Build configuration list for PBXProject "CzechSky" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57857F6F2804B8C900E1BF31;
+			productRefGroup = 57857F792804B8C900E1BF31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57857F772804B8C900E1BF31 /* CzechSky */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57857F762804B8C900E1BF31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57857F832804B8D100E1BF31 /* Preview Assets.xcassets in Resources */,
+				57857F802804B8D100E1BF31 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04E272B506AA5581477417E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CzechSky-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33920B32280D66550099FDBF /* Needle */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Needle;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\n\nif which needle; then\n    SOURCEKIT_LOGGING=0 && needle generate CzechSky/NeedleGenerated.swift CzechSky/\nelse\n  echo \"warning: Needle not installed, download from https://github.com/uber/needle using Homebrew\"\nfi\n";
+		};
+		4AF007B107C0AD3E23492782 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CzechSky/Pods-CzechSky-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CzechSky/Pods-CzechSky-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CzechSky/Pods-CzechSky-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57857F742804B8C900E1BF31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57857FA02804CB8A00E1BF31 /* PlanePositionRequestProvider.swift in Sources */,
+				57857FA52804D78700E1BF31 /* BackendError.swift in Sources */,
+				57857F962804C17000E1BF31 /* PlaneRepository.swift in Sources */,
+				33A93B8A280DA19D009841AC /* NeedleGenerated.swift in Sources */,
+				57857F902804B96500E1BF31 /* PlaneOnMapView.swift in Sources */,
+				33920B1928080E070099FDBF /* PlanePositionsModel.swift in Sources */,
+				57857F9A2804CB0700E1BF31 /* RequestProvider.swift in Sources */,
+				33A93B8D280E20E0009841AC /* View+Extensions.swift in Sources */,
+				33920B1D280858390099FDBF /* MKCoordinateRegion+Extensions.swift in Sources */,
+				33920B152807FBD40099FDBF /* Combine+Extensions .swift in Sources */,
+				33920B25280C6D420099FDBF /* PlaneOnMapComponent.swift in Sources */,
+				33A93B90280E2152009841AC /* PlanesListView.swift in Sources */,
+				57857F942804BFC900E1BF31 /* PlaneDomainModel.swift in Sources */,
+				57857F922804BE0900E1BF31 /* PlaneOnMapViewModel.swift in Sources */,
+				33920B29280CA6180099FDBF /* RootView.swift in Sources */,
+				57857FA32804D77B00E1BF31 /* NetworkError.swift in Sources */,
+				33920B27280CA5E10099FDBF /* RootComponent.swift in Sources */,
+				57857F7C2804B8C900E1BF31 /* Czech_SkyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		57857F842804B8D100E1BF31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		57857F852804B8D100E1BF31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57857F872804B8D100E1BF31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CFA6522D205A5BF66AFCAC9 /* Pods-CzechSky.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CzechSky/Preview Content\"";
+				DEVELOPMENT_TEAM = X6TFAZWAZW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "pashteta.Czech-Sky";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		57857F882804B8D100E1BF31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC68C942F0916C7FB2B14D47 /* Pods-CzechSky.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CzechSky/Preview Content\"";
+				DEVELOPMENT_TEAM = X6TFAZWAZW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "pashteta.Czech-Sky";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57857F732804B8C900E1BF31 /* Build configuration list for PBXProject "CzechSky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57857F842804B8D100E1BF31 /* Debug */,
+				57857F852804B8D100E1BF31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57857F862804B8D100E1BF31 /* Build configuration list for PBXNativeTarget "CzechSky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57857F872804B8D100E1BF31 /* Debug */,
+				57857F882804B8D100E1BF31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57857F702804B8C900E1BF31 /* Project object */;
+}

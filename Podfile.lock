@@ -1,0 +1,20 @@
+PODS:
+  - Alamofire (5.5.0)
+  - NeedleFoundation (0.17.2)
+
+DEPENDENCIES:
+  - Alamofire
+  - NeedleFoundation
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - NeedleFoundation
+
+SPEC CHECKSUMS:
+  Alamofire: 1c4fb5369c3fe93d2857c780d8bbe09f06f97e7c
+  NeedleFoundation: 36cfaea9ae9eb527a796f5c1df19296c722666b8
+
+PODFILE CHECKSUM: 2297264bc797505c85ce1a43a7f10d57dc41a68f
+
+COCOAPODS: 1.11.2
